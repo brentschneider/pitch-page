@@ -1,0 +1,30 @@
+
+@import 'semantic';
+
+/* My Styles */
+
+
+$bgimage : "../img/brentschneider.jpg";
+
+body {
+  background: #000 url("/img/brentschneider.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y: hidden;
+}
+    body > .grid {
+      height: 100%;
+    }
+    .image {
+      margin-top: -100px;
+    }
+    .column {
+      max-width: 450px;
+    }
+
+.half {
+  height: 45vh;
+  margin-top: 45%;
+}
